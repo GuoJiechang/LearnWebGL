@@ -1,7 +1,7 @@
-import {showError} from "./modules/log.js";
-import {getContext, loadTexture} from "./modules/gl-helper.js";
-import {Shader} from "./modules/shader.js";
-import * as mat4 from "./modules/mat4.js";
+import {showError} from "../../modules/log.js";
+import {getContext, loadTexture} from "../../modules/gl-helper.js";
+import {Shader} from "../../modules/shader.js";
+import * as mat4 from "../../modules/mat4.js";
 
 function degreesToRadians(degrees) {
    return degrees * (Math.PI / 180);

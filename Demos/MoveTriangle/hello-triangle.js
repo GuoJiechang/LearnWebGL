@@ -1,6 +1,6 @@
-import {showError} from "./modules/log.js";
-import {getContext} from "./modules/gl-helper.js";
-import {Shader} from "./modules/shader.js";
+import {showError} from "../../modules/log.js";
+import {getContext} from "../../modules/gl-helper.js";
+import {Shader} from "../../modules/shader.js";
 
 // function drawTriangle(size) {
 //

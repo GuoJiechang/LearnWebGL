@@ -1,10 +1,10 @@
-import {showError} from "./modules/log.js";
-import {getContext, loadTexture} from "./modules/gl-helper.js";
-import {Shader} from "./modules/shader.js";
-import * as mat4 from "./modules/mat4.js";
-import * as vec3 from "./modules/vec3.js";
-import {degreesToRadians,radiansToDegrees} from "./modules/math-helper.js";
-import {Camera} from "./modules/camera.js";
+import {showError} from "../../modules/log.js";
+import {getContext, loadTexture} from "../../modules/gl-helper.js";
+import {Shader} from "../../modules/shader.js";
+import * as mat4 from "../../modules/mat4.js";
+import * as vec3 from "../../modules/vec3.js";
+import {degreesToRadians,radiansToDegrees} from "../../modules/math-helper.js";
+import {Camera} from "../../modules/camera.js";
 
 function helloTriangle() {
     //
